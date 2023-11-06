@@ -1,0 +1,40 @@
+Index: src/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/index.html b/index.html
+rename from src/index.html
+rename to index.html
+--- a/src/index.html	(revision 10e8e560e8f60ebab3183c37aa919e1a02ca2134)
++++ b/index.html	(date 1699284985988)
+@@ -100,7 +100,7 @@
+                     <div class="card-body">
+                         <h5 class="card-title">Armando Altherr</h5>
+                         <p class="card-text">Baute eine Fantasie Welt</p>
+-                        <a href="/play_scratch.html?id=903346626&name=Armando%20Altherr" class="btn btn-warning">
++                        <a href="./play_scratch.html?id=903346626&name=Armando%20Altherr" class="btn btn-warning">
+                             <img src="resources/scratch.png" alt="scratch" height="30"> Los geht's!</a>
+                     </div>
+                 </div>
+@@ -111,7 +111,7 @@
+                     <div class="card-body">
+                         <h5 class="card-title">Person XY</h5>
+                         <p class="card-text">Programmierte ein Game</p>
+-                        <a href="/play_scratch.html" class="btn btn-warning">
++                        <a href="./play_scratch.html" class="btn btn-warning">
+                             <img src="resources/scratch.png" alt="scratch" height="30"> Los geht's!</a>
+                     </div>
+                 </div>
+@@ -122,7 +122,7 @@
+                     <div class="card-body">
+                         <h5 class="card-title">Astronaut</h5>
+                         <p class="card-text">Verschwand auf dem Mond</p>
+-                        <a href="/play_scratch.html?=123&name=Astronaut" class="btn btn-warning">
++                        <a href="./play_scratch.html?=123&name=Astronaut" class="btn btn-warning">
+                             <img src="resources/scratch.png" alt="scratch" height="30"> Los geht's!</a>
+                     </div>
+                 </div>
+diff --git a/src/play_scratch.html b/play_scratch.html
+rename from src/play_scratch.html
+rename to play_scratch.html

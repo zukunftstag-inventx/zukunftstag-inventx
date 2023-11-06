@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Zukunftstag 2023</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">< Zurück</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="scratch-programmieren">
+  <div class="container text-center">
+    <div class="row">
+      <div style="height: 100px"></div>
+      <h2 id="title">Scratch Programm</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col">
+
+      </div>
+      <div class="col">
+          <div>
+            <div style="height: 100px"></div>
+            <p id="message" style="color: red"></p>
+            <iframe id="frame" src="" allowtransparency="true" width="685" height="602" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col">
+
+      </div>
+    </div>
+  </div>
+  <div style="height: 150px"></div>
+</div>
+
+</body>
+</html>
+<script>
+  const queryString = new URLSearchParams(document.location.search)
+  let name = queryString.get('name');
+  const projId = queryString.get('id');
+
+  let title = document.getElementById("title");
+  if (name == null) {
+    name = "unbekannt"
+  }
+  title.innerHTML = "Scratch Programm von " + name
+
+  console.log(document.getElementById("frame").src);
+  if (projId == null) {
+    document.getElementById("message").innerHTML = "Das Projekt konnte nicht geladen werden."
+  } else {
+    document.getElementById("frame").src = "https://scratch.mit.edu/projects/" + projId + "/embed";
+  }
+
+</script>

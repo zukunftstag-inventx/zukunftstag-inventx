@@ -1,0 +1,44 @@
+<changelist name="Changes" date="1699284994418" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/astronaut.jpg" />
+    <option name="AFTER_PATH" value="resources/astronaut.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/astronaut.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/boy.jpg" />
+    <option name="AFTER_PATH" value="resources/boy.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/boy.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/favicon.ico" />
+    <option name="AFTER_PATH" value="resources/favicon.ico" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/favicon.ico" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/girl.jpg" />
+    <option name="AFTER_PATH" value="resources/girl.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/girl.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/kid-build-pc.jpg" />
+    <option name="AFTER_PATH" value="resources/kid-build-pc.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/kid-build-pc.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/logo-inventx.png" />
+    <option name="AFTER_PATH" value="resources/logo-inventx.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/logo-inventx.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/person.png" />
+    <option name="AFTER_PATH" value="resources/person.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/person.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/resources/scratch.png" />
+    <option name="AFTER_PATH" value="resources/scratch.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/scratch.png" />
+  </binary>
+</changelist>
